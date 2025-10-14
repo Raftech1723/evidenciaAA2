@@ -1,0 +1,186 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "int256",
+						"name": "x",
+						"type": "int256"
+					}
+				],
+				"name": "clasificar",
+				"outputs": [
+					{
+						"internalType": "int8",
+						"name": "",
+						"type": "int8"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256[]",
+						"name": "arr",
+						"type": "uint256[]"
+					}
+				],
+				"name": "contarParesFor",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "n",
+						"type": "uint256"
+					}
+				],
+				"name": "factorialFor",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "a",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "b",
+						"type": "uint256"
+					}
+				],
+				"name": "maxDe",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256[]",
+						"name": "arr",
+						"type": "uint256[]"
+					},
+					{
+						"internalType": "uint256",
+						"name": "objetivo",
+						"type": "uint256"
+					}
+				],
+				"name": "primeraCoincidencia",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "encontrado",
+						"type": "bool"
+					},
+					{
+						"internalType": "uint256",
+						"name": "indice",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "n",
+						"type": "uint256"
+					}
+				],
+				"name": "sumatoriaWhile",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"title": "ControlDeFlujoDemo Demuestra: - if / else, if / else if / else - while - for (con break)",
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {
+				"factorialFor(uint256)": {
+					"notice": "------------------------------- 3) FOR -------------------------------"
+				},
+				"maxDe(uint256,uint256)": {
+					"notice": "------------------------------- 1) IF / ELSE -------------------------------"
+				},
+				"sumatoriaWhile(uint256)": {
+					"notice": "------------------------------- 2) WHILE -------------------------------"
+				}
+			},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/ControlDeFlujoDemo.sol": "ControlDeFlujoDemo"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/ControlDeFlujoDemo.sol": {
+			"keccak256": "0xa839f39d7a66074df313e999e45fd852e7eb3a74d5f9d686522904a7874940e8",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://d5af590914555315c7b3b47d32ff45f75f4da1ff1d7b645002912eb4441cbb31",
+				"dweb:/ipfs/QmVqZtnGFhwwdpSvB749MKrxUhHmx8TWVKhVDQdeBC7MR5"
+			]
+		}
+	},
+	"version": 1
+}
